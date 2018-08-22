@@ -3,6 +3,6 @@ import 'dart:html';
 void main() {
   querySelector('#output').text = 'Your Dart app is running.';
   
-  // Intentional error to cause NoSuchMethodError
+  // Intentionally throw error to demonstrate issue with source maps
   throw new Error();
 }
