@@ -2,6 +2,7 @@ import 'dart:html';
 
 void main() {
   querySelector('#output').text = 'Your Dart app is running.';
-  int x;
-  x++;
+  
+  // Intentional error to cause NoSuchMethodError
+  throw new Error();
 }
